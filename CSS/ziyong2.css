@@ -48,7 +48,8 @@ body{ background-image: linear-gradient(to top,#FBE0E2,#ECFAF9);
 		}
 
 .ztop{clear:both;
-	  padding-top:50px;}
+	  padding-top:50px;
+    height: 435px;}
 
 
 .ztop p.p1{text-align:center;

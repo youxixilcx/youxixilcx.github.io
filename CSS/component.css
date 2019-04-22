@@ -1,0 +1,173 @@
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+.wrapper {
+	margin: 0 auto 100px auto;
+	max-width: 960px;
+}
+
+.stage {
+	list-style: none;
+	padding: 0;
+}
+
+/*************************************
+Build the scene and rotate on hover
+**************************************/
+
+.scene {
+	width: 700px;
+	height: 280px;
+
+	float: left;
+	-webkit-perspective: 2500px;
+	-moz-perspective: 2500px;
+	perspective: 2500px;
+}
+
+.movie {
+	width: 700px;
+	height: auto;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform: translateZ(-4500px);
+	-moz-transform: translateZ(-450px);
+	transform: translateZ(-450px);
+	-webkit-transition: -webkit-transform 550ms;
+	-moz-transition: -moz-transform 550ms;
+	transition: transform 550ms;
+}
+
+.movie:hover {
+	-webkit-transform: rotateY(-90deg) translateZ(000px);
+	-moz-transform: rotateY(-90deg) translateZ(00px);
+	transform: rotateY(-90deg) translateZ(000px);
+	display: block;
+
+}
+.ztop:hover .p1{
+	display: none;
+
+}
+.ztop:hover .phone{
+	display: none;
+
+}
+
+/*************************************
+Transform and style the two planes
+**************************************/
+
+.movie .poster,
+.movie .info {
+	position: absolute;
+	width: 700px;
+	height: 280px;
+	background-color: #fff;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.movie .poster  {
+	-webkit-transform: translateZ(350px);
+	-moz-transform: translateZ(350px);
+	transform: translateZ(350px);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.movie .info {
+	-webkit-transform: rotateY(90deg) translateZ(00px);
+	-moz-transform: rotateY(90deg) translateZ(200px);
+	transform: rotateY(90deg) translateZ(000px);
+	border: 0px solid #B8B5B5;
+	font-size: 0.75em;
+}
+
+/*************************************
+Shadow beneath the 3D object
+**************************************/
+
+
+
+.csstransforms3d .movie:hover::after {
+	box-shadow: 20px -5px 50px rgba(0,0,0,0.3);
+}
+
+/*************************************
+Movie information
+**************************************/
+
+.info header {
+	color: #FFF;
+	padding: 7px 10px;
+	font-weight: bold;
+	height: 195px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-shadow: 0px 1px 1px rgba(0,0,0,1);
+}
+
+.info header h1 {
+	margin: 2px 0 2px;
+	font-size: 1.4em;
+	padding: 5px 0 5px;
+}
+
+.info header .rating {
+	border: 1px solid #FFF;
+	padding: 0px 3px;
+
+}
+
+.info p {
+	padding: 1.2em 1.4em;
+	margin: 2px 0 0;
+	font-weight: 400;
+	color: #c37dc9;
+	line-height: 1.4em;
+	border-top: 10px solid #a29bfe;
+	font-family: “Baskerville Old Face”;
+}
+
+/*************************************
+Generate "lighting" using box shadows
+**************************************/
+
+
+
+/*************************************
+Posters and still images
+**************************************/
+
+.scene:nth-child(1) .movie .poster {
+  background-image: url(../images/手机绘制7.jpg);
+}
+
+
+
+.scene:nth-child(1) .info header {
+	background-image: url(../images/樱花.jpg);
+}
+
+
+/*************************************
+Fallback
+**************************************/
+.no-csstransforms3d .movie .poster,
+.no-csstransforms3d .movie .info {
+	position: relative;
+}
+
+/*************************************
+Media Queries
+**************************************/
+@media screen and (max-width: 60.75em){
+	.scene {
+		float: none;
+		margin: 180px auto 60px;
+	}
+}
