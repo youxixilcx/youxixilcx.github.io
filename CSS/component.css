@@ -123,13 +123,17 @@ Movie information
 
 }
 
+.info #p2{
+	border-top: 10px solid #a29bfe;
+}
+
 .info p {
 	padding: 1.2em 1.4em;
 	margin: 2px 0 0;
 	font-weight: 400;
 	color: #c37dc9;
 	line-height: 1.4em;
-	border-top: 10px solid #a29bfe;
+  border-top: 10px solid #a29bfe;
 	font-family: “Baskerville Old Face”;
 }
 

@@ -23,9 +23,9 @@ body{ background-image: linear-gradient(to top,#c5e0f0,#ECFAF9);
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 	background: #FFFFFF;
-	box-shadow: #444 0px 3px 12px 0px ;}
+	box-shadow: #333 0px 3px 12px 0px ;}
 
-.top{ background:#713554;
+.top{ background:#2c385b;
       height:270px;}
 
 
@@ -33,9 +33,9 @@ body{ background-image: linear-gradient(to top,#c5e0f0,#ECFAF9);
         position: absolute;
         top:290px;
         left: 659px;
-        color: #ebc0f4;
+        color: #adc2e8;
 
-      	border: 2px solid #ebc0f4;
+      	border: 2px solid #adc2e8;
       	padding: 0px 3px;
         display: none;
 
