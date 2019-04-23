@@ -8,6 +8,15 @@ body{ background-image: linear-gradient(to top,#FBE0E2,#ECFAF9);
 	  min-height:1610px;
 	  }
 
+audio{margin: 0;
+  padding: 0;
+  border: 0;
+  position: fixed;
+  top: 0;
+  right:0;
+
+}
+
 .top{ background:#40b7d1;
       height:270px;}
 
