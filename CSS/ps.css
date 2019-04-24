@@ -5,9 +5,8 @@ body{ background-image: linear-gradient(to top,#f5d5f7,#f6eaf7);
       background-repeat:no-repeat;
       width:100%;
 	  height:100%;
-	  min-height:1780px;
+	  min-height:1740px;
 	  }
-
 
 
 .centop{width:100%;
@@ -51,7 +50,7 @@ body{ background-image: linear-gradient(to top,#f5d5f7,#f6eaf7);
 
       .weibu{
               position:relative;
-      	   top:1250px;
+      	   top:1210px;
       	   margin:auto;
       	   padding-top:25px;
               }
