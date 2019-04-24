@@ -29,21 +29,24 @@ body{ background-image: linear-gradient(to top,#c5e0f0,#ECFAF9);
       height:270px;}
 
 
-  .tophome .rating {
-        position: absolute;
-        top:290px;
-        left: 659px;
-        color: #adc2e8;
+      .tophome .rating {
+            position: absolute;
+            top:290px;
+            left: 659px;
+            color: #adc2e8;
 
-      	border: 2px solid #adc2e8;
-      	padding: 0px 3px;
-        display: none;
+            border: 2px solid #adc2e8;
+            padding: 0px 3px;
 
+
+          }
+
+      .tophome:hover .rating{
+            box-shadow: #adc2e8 0px 0px 20px 5px
       }
 
-.tophome:hover .rating{
-        display: block;
-}
+
+
 
 
 

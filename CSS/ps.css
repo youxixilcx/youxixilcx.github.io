@@ -37,12 +37,12 @@ body{ background-image: linear-gradient(to top,#f5d5f7,#f6eaf7);
 
       	border: 2px solid #ebc0f4;
       	padding: 0px 3px;
-        display: none;
+
 
       }
 
 .tophome:hover .rating{
-        display: block;
+        box-shadow: #ebc0f4 0px 0px 20px 5px
 }
 
 
