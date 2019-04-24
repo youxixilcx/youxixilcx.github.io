@@ -154,6 +154,7 @@ Posters and still images
 
 
 .scene:nth-child(1) .info header {
+	cursor:pointer;
 	background-image: url(../images/樱花.jpg);
 }
 
