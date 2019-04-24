@@ -42,7 +42,8 @@ body{ background-image: linear-gradient(to top,#c5e0f0,#ECFAF9);
           }
 
       .tophome:hover .rating{
-            box-shadow: #adc2e8 0px 0px 20px 5px
+            box-shadow: #adc2e8 0px 0px 20px 5px;
+            cursor:pointer
       }
 
 
