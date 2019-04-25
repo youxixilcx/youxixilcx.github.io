@@ -70,6 +70,7 @@
 				color: red;
 			}
 			.image-content::before {
+				height:400px;
 				content: '';
 				position: absolute;
 				left: 0;
