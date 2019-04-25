@@ -47,14 +47,7 @@ Build the scene and rotate on hover
 	display: block;
 
 }
-.ztop:hover .p1{
-	display: none;
 
-}
-.ztop:hover .phone{
-	display: none;
-
-}
 
 /*************************************
 Transform and style the two planes
@@ -64,7 +57,7 @@ Transform and style the two planes
 .movie .info {
 	position: absolute;
 	width: 800px;
-	height: 280px;
+	height: 320px;
 	background-color: #fff;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
@@ -147,9 +140,7 @@ Generate "lighting" using box shadows
 Posters and still images
 **************************************/
 
-.scene:nth-child(1) .movie .poster {
-  background-image: url(../images/手机绘制7.jpg);
-}
+
 
 
 
