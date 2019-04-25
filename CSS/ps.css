@@ -5,15 +5,15 @@ body{ background-image: linear-gradient(to top,#f5d5f7,#f6eaf7);
       background-repeat:no-repeat;
       width:100%;
 	  height:100%;
-	  min-height:1740px;
+	  min-height:1940px;
 	  }
 
 
 .centop{width:100%;
 
-     max-width:700px;
+     max-width:800px;
 	position:absolute;
-	top:80px;
+	top:100px;
 	left:0;
 	right:0;
 	margin:auto;
@@ -31,7 +31,7 @@ body{ background-image: linear-gradient(to top,#f5d5f7,#f6eaf7);
   .tophome .rating {
         position: absolute;
         top:290px;
-        left: 659px;
+        left: 759px;
         color: #ebc0f4;
 
       	border: 2px solid #ebc0f4;
@@ -50,7 +50,7 @@ body{ background-image: linear-gradient(to top,#f5d5f7,#f6eaf7);
 
       .weibu{
               position:relative;
-      	   top:1210px;
+      	   top:1410px;
       	   margin:auto;
       	   padding-top:25px;
               }

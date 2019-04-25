@@ -17,7 +17,7 @@ Build the scene and rotate on hover
 **************************************/
 
 .scene {
-	width: 700px;
+	width: 800px;
 	height: 280px;
 
 	float: left;
@@ -27,12 +27,12 @@ Build the scene and rotate on hover
 }
 
 .movie {
-	width: 700px;
+	width: 800px;
 	height: auto;
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	-webkit-transform: translateZ(-4500px);
+	-webkit-transform: translateZ(-450px);
 	-moz-transform: translateZ(-450px);
 	transform: translateZ(-450px);
 	-webkit-transition: -webkit-transform 550ms;
@@ -63,7 +63,7 @@ Transform and style the two planes
 .movie .poster,
 .movie .info {
 	position: absolute;
-	width: 700px;
+	width: 800px;
 	height: 280px;
 	background-color: #fff;
 	-webkit-backface-visibility: hidden;
@@ -105,7 +105,7 @@ Movie information
 	color: #FFF;
 	padding: 7px 10px;
 	font-weight: bold;
-	height: 195px;
+	height: 230px;
 	background-size: contain;
 	background-repeat: no-repeat;
 	text-shadow: 0px 1px 1px rgba(0,0,0,1);
