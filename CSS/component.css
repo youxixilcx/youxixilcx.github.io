@@ -20,7 +20,7 @@ Build the scene and rotate on hover
 	width: 800px;
 	height: 280px;
 
-
+	float: left;
 	-webkit-perspective: 2500px;
 	-moz-perspective: 2500px;
 	perspective: 2500px;
