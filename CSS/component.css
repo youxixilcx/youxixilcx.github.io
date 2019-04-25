@@ -42,8 +42,8 @@ Build the scene and rotate on hover
 
 .movie:hover {
 	-webkit-transform: rotateY(-90deg) translateZ(000px);
-	-moz-transform: rotateY(-90deg) translateZ(00px);
-	transform: rotateY(-90deg) translateZ(000px);
+	-moz-transform: rotateY(-90deg) translateZ(0px);
+	transform: rotateY(-90deg) translateZ(00px);
 	display: block;
 
 }
@@ -74,7 +74,7 @@ Transform and style the two planes
 
 .movie .info {
 	-webkit-transform: rotateY(90deg) translateZ(00px);
-	-moz-transform: rotateY(90deg) translateZ(200px);
+	-moz-transform: rotateY(90deg) translateZ(000px);
 	transform: rotateY(90deg) translateZ(000px);
 	border: 0px solid #B8B5B5;
 	font-size: 0.75em;
@@ -86,9 +86,7 @@ Shadow beneath the 3D object
 
 
 
-.csstransforms3d .movie:hover::after {
-	box-shadow: 20px -5px 50px rgba(0,0,0,0.3);
-}
+
 
 /*************************************
 Movie information
