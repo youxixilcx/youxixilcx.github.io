@@ -13,10 +13,12 @@
 			.inner-width1 {
 				max-width:800px;
 				margin: 0 auto;
-				
+				overflow: hidden;
+
 			}
 			.testimonia-section h1 {
 				position: relative;
+				overflow: hidden;
 				top:-10px;
 				text-align: center;
 				color: #333;
@@ -31,6 +33,7 @@
 				margin: 40px auto;
 			}
 			.testimonial {
+				overflow: hidden;
 				background-color: #B3D9CB;
 				padding: 40px;
 				overflow: hidden;
