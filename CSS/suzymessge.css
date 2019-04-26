@@ -4,24 +4,24 @@
 
 
 			.testimonia-section {
-
+       width: 1200px;
 
 				height: auto;
 			}
 			.inner-width1 {
-				max-width: 1080px;
+				max-width: 1680px;
 				margin: 0 auto;
-				padding: 0 20px;
+				padding: 0 00px;
 			}
 			.testimonia-section h1 {
-				position: relative;
+
 				top:-10px;
 				text-align: center;
 				color: #333;
 				font-size: 32px;
 			}
 			.border {
-				position: relative;
+
 				top:-10px;
 				width: 100px;
 				height: 3px;
