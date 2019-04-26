@@ -11,7 +11,7 @@
 			.inner-width1 {
 				max-width: 1200px;
 				margin: 0 auto;
-				padding: 0 00px;
+				padding: 0 10px;
 			}
 			.testimonia-section h1 {
 				position: relative;
@@ -36,6 +36,7 @@
 				overflow: hidden;
 				border-radius: 10px;
 				cursor: pointer;
+				height: 290px;
 			}
 			.testimonial1{
 
