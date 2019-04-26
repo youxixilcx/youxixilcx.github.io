@@ -47,7 +47,7 @@
  <div class="testimonia-section">
  			<div class="inner-width1">
  				<h1>INFORMATION</h1>
- 				<div class="border"></div>
+ 				<div class="border1"></div>
  				<div class="sliders owl-carousel">
  					<div class="testimonial">
  						<div class="test-info">
@@ -111,12 +111,15 @@
 
     <script>
     			$('.owl-carousel').owlCarousel({
-            width:1080,
-    				margin: 10,
-    				responsiveClass: false,
-    				responsive:false,
-            items:1,
-    			})
+            margin: 10,
+				responsiveClass: true,
+				responsive: {
+					0: {
+						items: 2
+					}
+
+				}
+			})
     		</script>
 
 

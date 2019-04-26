@@ -9,30 +9,32 @@
 				height: auto;
 			}
 			.inner-width1 {
-				max-width: 800px;
+				max-width: 1200px;
 				margin: 0 auto;
 				padding: 0 00px;
 			}
 			.testimonia-section h1 {
 				position: relative;
-				top:-10px;
+				top:-25px;
 				text-align: center;
 				color: #333;
 				font-size: 32px;
 			}
-			.border {
+			.border1 {
 				position: relative;
-				top:-10px;
+				top:-20px;
 				width: 300px;
 				height: 3px;
 				background-color: #333;
-				margin: 40px auto;
+				margin: 0px auto 20px;
+
+
 			}
 			.testimonial {
 				background-color: #B3D9CB;
 				padding: 40px;
 				overflow: hidden;
-				border-radius: 0px;
+				border-radius: 10px;
 				cursor: pointer;
 			}
 			.testimonial1{
@@ -45,7 +47,7 @@
 
 			}
 			.testimonial4{
-				
+
 			}
 			.test-info {
 				display: flex;
