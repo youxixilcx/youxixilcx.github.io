@@ -1,7 +1,9 @@
 @charset "utf-8";
 
 
-      
+      .body{
+				width: 100%;
+			}
 
 			.testimonia-section {
 
