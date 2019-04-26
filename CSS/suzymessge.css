@@ -23,7 +23,7 @@
 			.border {
 				position: relative;
 				top:-10px;
-				width: 100px;
+				width: 300px;
 				height: 3px;
 				background-color: #333;
 				margin: 40px auto;
@@ -32,7 +32,7 @@
 				background-color: #B3D9CB;
 				padding: 40px;
 				overflow: hidden;
-				border-radius: 8px;
+				border-radius: 0px;
 				cursor: pointer;
 			}
 			.test-info {
