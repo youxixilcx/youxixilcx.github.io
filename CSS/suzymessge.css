@@ -1,19 +1,20 @@
 @charset "utf-8";
 
 
-      .body{
-				width: 100%;
-			}
+
 
 			.testimonia-section {
 
 
-				height:635px;
+				height: auto;
 			}
-
+			.inner-width1 {
+				max-width: 1200px;
+				margin: 0 auto;
+				padding: 0 20px;
+			}
 			.testimonia-section h1 {
 				position: relative;
-				overflow: hidden;
 				top:-10px;
 				text-align: center;
 				color: #333;
@@ -28,7 +29,6 @@
 				margin: 40px auto;
 			}
 			.testimonial {
-				overflow: hidden;
 				background-color: #B3D9CB;
 				padding: 40px;
 				overflow: hidden;
