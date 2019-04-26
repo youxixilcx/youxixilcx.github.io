@@ -4,7 +4,7 @@
 
 
 			.testimonia-section {
-       width: 1200px;
+
 
 				height: auto;
 			}
@@ -14,14 +14,14 @@
 				padding: 0 00px;
 			}
 			.testimonia-section h1 {
-
+				position: relative;
 				top:-10px;
 				text-align: center;
 				color: #333;
 				font-size: 32px;
 			}
 			.border {
-
+				position: relative;
 				top:-10px;
 				width: 100px;
 				height: 3px;
