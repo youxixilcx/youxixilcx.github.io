@@ -11,8 +11,9 @@
 		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://cdn.bootcss.com/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 <link rel="stylesheet" href="CSS/cdr.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
 
-
+<link rel="stylesheet" href="CSS/lunbo.css">
 
 <body>
   <div class="top">
@@ -21,15 +22,102 @@
     <div class="tophome">
 
 
-        <span onclick="window.location.href='index.html'" class="rating">H O M E</span>
+      <span onclick="window.location.href='index.html'" class="rating">H O M E</span>
 
+       <div class="swiper-container">
+         <!-- Additional required wrapper -->
+         <div class="swiper-wrapper">
+             <!-- Slides -->
+             <div class="swiper-slide">
+               <div class="slide-wrap">
+                 <img src="images/CDR.jpg" alt="">
+                 <div class="introdution">
+                   <h2></br></h2>
+                   <p></p>
+                 </div>
+               </div>
+             </div>
+             <div class="swiper-slide">
+               <div class="slide-wrap">
+                 <img src="images/suzy粒子.jpg" alt="">
+                 <div class="introdution">
+                   <h2>施工中</br>施工中</h2>
+                   <p>Character particle effect</p>
+                 </div>
+               </div>
+             </div>
+             <div class="swiper-slide">
+               <div class="slide-wrap">
+                 <img src="images/3.jpg" alt="">
+                 <div class="introdution">
+                   <h2>施工中</br>施工中</h2>
+                   <p>Despite super spy Natasha Romanoff’s checkered past, she’s become one of S.H.I.E.L.D.’s most deadly assassins and a frequent member of the Avengers.</p>
+                 </div>
+               </div>
+             </div>
+             <div class="swiper-slide">
+               <div class="slide-wrap">
+                 <img src="images/4.jpg" alt="">
+                 <div class="introdution">
+                   <h2>HULK</br>绿巨人</h2>
+                   <p>Dr. Bruce Banner lives a life caught between the soft-spoken scientist he’s always been and the uncontrollable green monster powered by his rage.</p>
+                 </div>
+               </div>
+             </div>
+             <div class="swiper-slide">
+               <div class="slide-wrap">
+                 <img src="images/5.jpg" alt="">
+                 <div class="introdution">
+                   <h2>HAWKEYE</br>鹰眼</h2>
+                   <p>A master marksman and longtime friend of Black Widow, Clint Barton serves as the Avengers’ amazing archer.</p>
+                 </div>
+               </div>
+             </div>
+             <div class="swiper-slide">
+               <div class="slide-wrap">
+                 <img src="images/6.jpg" alt="">
+                 <div class="introdution">
+                   <h2>THOR</br>雷神</h2>
+                   <p>The son of Odin uses his mighty abilities as the God of Thunder to protect his home Asgard and planet Earth alike.</p>
+                 </div>
+               </div>
+             </div>
 
+         </div>
+         <!-- If we need pagination 分页器-->
+         <div class="swiper-pagination"></div>
 
-    <a href="index.html">
-    <img id="tophome" alt="top" style="width:100%; height:auto" src="images/CDR.jpg">
-    </a>
+         <!-- If we need navigation buttons 左右按钮
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next"></div> -->
+       </div>
 
   </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+  <script>
+    var mySwiper = new Swiper ('.swiper-container', {
+      // Optional parameters
+      // direction: 'vertical',//方向，默认水平
+      loop: true,
+      autoplay: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+    })
+  </script>
+
+
     <div class="gallery-section">
       <div class="inner-width">
 
