@@ -30,7 +30,7 @@ body{ background-image: linear-gradient(to top,#f5d5f7,#f6eaf7);
 
   .tophome .rating {
         position: absolute;
-        top:290px;
+        top:490px;
         left: 759px;
         color: #ebc0f4;
 
@@ -40,7 +40,7 @@ body{ background-image: linear-gradient(to top,#f5d5f7,#f6eaf7);
 
       }
 
-.tophome:hover .rating{
+.rating:hover {
         box-shadow: #ebc0f4 0px 0px 20px 5px;
         cursor:pointer
 }

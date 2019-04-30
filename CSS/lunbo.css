@@ -1,0 +1,59 @@
+/* B站：@VincentTV */
+/* Share with you */
+/* 主页：https://space.bilibili.com/402141442 */
+/* 本视频：https://www.bilibili.com/video/av50437887 */
+* {
+  margin: 0;
+  padding: 0;
+}
+.swiper-pagination{
+  color: red;
+}
+.slide-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide-wrap img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.introdution {
+  position: absolute;
+  width: 80%;
+  color: white;
+}
+.introdution h2 {
+  font-size: 20px;
+  text-shadow: 0 0 10px #000;
+  margin-bottom: 10px;
+}
+.introdution p {
+  font-size: 12px;
+  text-shadow: 0 0 10px #000;
+}
+
+
+@media (min-width: 500px) {
+  .introdution {
+    width: 70%;
+  }
+  .introdution h2 {
+    font-size: 30px;
+  }
+  .introdution p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 760px) {
+  .introdution {
+    width: 60%;
+  }
+  .introdution h2 {
+    font-size: 40px;
+  }
+  .introdution p {
+    font-size: 20px;
+  }
+}
